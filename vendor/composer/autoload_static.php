@@ -511,7 +511,10 @@ class ComposerStaticInit32264ea8b72cf85011fc4646fd80e89d
         'App\\Http\\Controllers\\ConsoleController' => __DIR__ . '/../..' . '/app/Http/Controllers/ConsoleController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\ExperiencesController' => __DIR__ . '/../..' . '/app/Http/Controllers/ExperiencesController.php',
+<<<<<<< HEAD
         'App\\Http\\Controllers\\ProjectSkillsController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProjectSkillsController.php',
+=======
+>>>>>>> eea5d4f0416a26cfcf371d70683782b2aa10b765
         'App\\Http\\Controllers\\ProjectsController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProjectsController.php',
         'App\\Http\\Controllers\\QualificationsController' => __DIR__ . '/../..' . '/app/Http/Controllers/QualificationsController.php',
         'App\\Http\\Controllers\\SkillsController' => __DIR__ . '/../..' . '/app/Http/Controllers/SkillsController.php',
@@ -525,7 +528,10 @@ class ComposerStaticInit32264ea8b72cf85011fc4646fd80e89d
         'App\\Http\\Middleware\\TrustHosts' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustHosts.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+<<<<<<< HEAD
         'App\\Models\\Blog' => __DIR__ . '/../..' . '/app/Models/Blog.php',
+=======
+>>>>>>> eea5d4f0416a26cfcf371d70683782b2aa10b765
         'App\\Models\\Experience' => __DIR__ . '/../..' . '/app/Models/Experience.php',
         'App\\Models\\Project' => __DIR__ . '/../..' . '/app/Models/Project.php',
         'App\\Models\\ProjectSkill' => __DIR__ . '/../..' . '/app/Models/ProjectSkill.php',
@@ -647,7 +653,10 @@ class ComposerStaticInit32264ea8b72cf85011fc4646fd80e89d
         'Cron\\HoursField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/HoursField.php',
         'Cron\\MinutesField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/MinutesField.php',
         'Cron\\MonthField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
+<<<<<<< HEAD
         'Database\\Factories\\BlogFactory' => __DIR__ . '/../..' . '/database/factories/BlogFactory.php',
+=======
+>>>>>>> eea5d4f0416a26cfcf371d70683782b2aa10b765
         'Database\\Factories\\ExperienceFactory' => __DIR__ . '/../..' . '/database/factories/ExperienceFactory.php',
         'Database\\Factories\\ProjectFactory' => __DIR__ . '/../..' . '/database/factories/ProjectFactory.php',
         'Database\\Factories\\QualificationFactory' => __DIR__ . '/../..' . '/database/factories/QualificationFactory.php',

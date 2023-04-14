@@ -12,7 +12,10 @@ return array(
     'App\\Http\\Controllers\\ConsoleController' => $baseDir . '/app/Http/Controllers/ConsoleController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Controllers\\ExperiencesController' => $baseDir . '/app/Http/Controllers/ExperiencesController.php',
+<<<<<<< HEAD
     'App\\Http\\Controllers\\ProjectSkillsController' => $baseDir . '/app/Http/Controllers/ProjectSkillsController.php',
+=======
+>>>>>>> eea5d4f0416a26cfcf371d70683782b2aa10b765
     'App\\Http\\Controllers\\ProjectsController' => $baseDir . '/app/Http/Controllers/ProjectsController.php',
     'App\\Http\\Controllers\\QualificationsController' => $baseDir . '/app/Http/Controllers/QualificationsController.php',
     'App\\Http\\Controllers\\SkillsController' => $baseDir . '/app/Http/Controllers/SkillsController.php',
@@ -26,7 +29,10 @@ return array(
     'App\\Http\\Middleware\\TrustHosts' => $baseDir . '/app/Http/Middleware/TrustHosts.php',
     'App\\Http\\Middleware\\TrustProxies' => $baseDir . '/app/Http/Middleware/TrustProxies.php',
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
+<<<<<<< HEAD
     'App\\Models\\Blog' => $baseDir . '/app/Models/Blog.php',
+=======
+>>>>>>> eea5d4f0416a26cfcf371d70683782b2aa10b765
     'App\\Models\\Experience' => $baseDir . '/app/Models/Experience.php',
     'App\\Models\\Project' => $baseDir . '/app/Models/Project.php',
     'App\\Models\\ProjectSkill' => $baseDir . '/app/Models/ProjectSkill.php',
@@ -148,7 +154,10 @@ return array(
     'Cron\\HoursField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/HoursField.php',
     'Cron\\MinutesField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/MinutesField.php',
     'Cron\\MonthField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
+<<<<<<< HEAD
     'Database\\Factories\\BlogFactory' => $baseDir . '/database/factories/BlogFactory.php',
+=======
+>>>>>>> eea5d4f0416a26cfcf371d70683782b2aa10b765
     'Database\\Factories\\ExperienceFactory' => $baseDir . '/database/factories/ExperienceFactory.php',
     'Database\\Factories\\ProjectFactory' => $baseDir . '/database/factories/ProjectFactory.php',
     'Database\\Factories\\QualificationFactory' => $baseDir . '/database/factories/QualificationFactory.php',
