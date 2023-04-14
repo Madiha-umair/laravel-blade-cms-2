@@ -91,7 +91,7 @@ class SkillsController extends Controller
         $skill->save();
 
         return redirect('/console/skills/list')
-            ->with('message', 'skill image has been edited!');
+            ->with('message', 'skill image has been added!');
     }
 
 }

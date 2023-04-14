@@ -3,6 +3,7 @@
 use App\Models\Project;
 use App\Http\Controllers\ConsoleController;
 use App\Http\Controllers\BlogsController;
+use App\Http\Controllers\ProjectsController;
 use App\Http\Controllers\SkillsController;
 use App\Http\Controllers\UsersController;
 use App\Http\Controllers\QualificationsController;
@@ -39,14 +40,14 @@ Route::get('/console/login', [ConsoleController::class, 'loginForm'])->middlewar
 Route::post('/console/login', [ConsoleController::class, 'login'])->middleware('guest');
 Route::get('/console/dashboard', [ConsoleController::class, 'dashboard'])->middleware('auth');
 
-Route::get('/console/projects/list', [BlogsController::class, 'list'])->middleware('auth');
-Route::get('/console/projects/add', [BlogsController::class, 'addForm'])->middleware('auth');
-Route::post('/console/projects/add', [BlogsController::class, 'add'])->middleware('auth');
-Route::get('/console/projects/edit/{project:id}', [BlogsController::class, 'editForm'])->where('project', '[0-9]+')->middleware('auth');
-Route::post('/console/projects/edit/{project:id}', [BlogsController::class, 'edit'])->where('project', '[0-9]+')->middleware('auth');
-Route::get('/console/projects/delete/{project:id}', [BlogsController::class, 'delete'])->where('project', '[0-9]+')->middleware('auth');
-Route::get('/console/projects/image/{project:id}', [BlogsController::class, 'imageForm'])->where('project', '[0-9]+')->middleware('auth');
-Route::post('/console/projects/image/{project:id}', [BlogsController::class, 'image'])->where('project', '[0-9]+')->middleware('auth');
+Route::get('/console/projects/list', [ProjectsController::class, 'list'])->middleware('auth');
+Route::get('/console/projects/add', [ProjectsController::class, 'addForm'])->middleware('auth');
+Route::post('/console/projects/add', [ProjectsController::class, 'add'])->middleware('auth');
+Route::get('/console/projects/edit/{project:id}', [ProjectsController::class, 'editForm'])->where('project', '[0-9]+')->middleware('auth');
+Route::post('/console/projects/edit/{project:id}', [ProjectsController::class, 'edit'])->where('project', '[0-9]+')->middleware('auth');
+Route::get('/console/projects/delete/{project:id}', [ProjectsController::class, 'delete'])->where('project', '[0-9]+')->middleware('auth');
+Route::get('/console/projects/image/{project:id}', [ProjectsController::class, 'imageForm'])->where('project', '[0-9]+')->middleware('auth');
+Route::post('/console/projects/image/{project:id}', [ProjectsController::class, 'image'])->where('project', '[0-9]+')->middleware('auth');
 
 Route::get('/console/users/list', [UsersController::class, 'list'])->middleware('auth');
 Route::get('/console/users/add', [UsersController::class, 'addForm'])->middleware('auth');
